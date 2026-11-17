@@ -1,7 +1,7 @@
 [component]
 name = "SigmaOS-browser-handoff"
 tier = 2
-stability = "scaffold"
+stability = "beta"
 language = "rust"
 description = "A Rust state model for browser selection and URL handoff. BrowserHandoff tracks a default or custom browser, records deferred URLs when no browser is configured, exposes handoff outcomes, and includes URL-host extraction helpers."
 upstream = []
@@ -11,6 +11,6 @@ provides = ["component"]
 depends_on = ["SigmaOS-system"]
 
 [maturity]
-status = "Scaffold"
+status = "Implemented"
 test_evidence = "Compiles and passes AAA unit tests"
 next_milestone = "Hardware and runtime integration"
